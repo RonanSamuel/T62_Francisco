@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+
+	int s = 60;
+	int r = 3000;
+	int d = 0;
+
+	d = (r / s);
+
+	cout << "The calculation of " << r << " revolutions per minutes is " << d << " degrees in one second" << endl;
+
+	system("PAUSE");
+	return 0;
+
+}
