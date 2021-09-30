@@ -4,11 +4,11 @@ using namespace std;
 int main(){
 
 	int money, change;
-	int coke = 100, pepsi = 120, pepper = 95;
+	int coke = 95, pepsi = 100, pepper = 120;
 	char choice;
 
 	cout << "Select your order" << endl;
-	cout << "\n[1] Pepsi\n[2] Dr. Pepper\n[3] Coca-Cola\n" << endl;
+	cout << "\n[1] Pepsi(P100)\n[2] Dr. Pepper(P120)\n[3] Coca-Cola(P95)\n" << endl;
 	cout << "Choice: " << endl;
 	cin >> choice;
 	
